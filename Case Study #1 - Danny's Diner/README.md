@@ -13,7 +13,7 @@
 4. [Case Study Questions](#casestudyquestions)
 5. [Solution](https://github.com/Haazem/8-Week-SQL-Challenge-/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/Solution.md)
 6. [SQL Code](https://github.com/Haazem/8-Week-SQL-Challenge-/tree/main/Case%20Study%20%231%20-%20Danny's%20Diner/SQL%20Code)
-7. [Solution pfd]
+7. [Solution pfd](https://github.com/Haazem/8-Week-SQL-Challenge-/tree/main/Case%20Study%20%231%20-%20Danny's%20Diner/Solution_pdf)
 
 ## Introduction  <a name="introduction"></a>
 
