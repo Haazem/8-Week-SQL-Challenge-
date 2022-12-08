@@ -205,9 +205,8 @@ WHERE rk = 1;
 
 
 
-* Customer A's first order as member is curry.
-* Customer B's first order as member is sushi.
-
+* Customer A’s last order before becoming a member is sushi and curry.
+* Whereas for Customer B, it's sushi. That must have been a real good sushi!
 
 ----
 ### 8. What is the total items and amount spent for each member before they became a member?
