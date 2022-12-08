@@ -11,9 +11,9 @@
 2. [Problem Statement](#problemstatement)
 3. [Entity Relationship Diagram](#entityrelationshipdiagram)
 4. [Case Study Questions](#casestudyquestions)
-5. [Solution](https://github.com/Haazem/Data-Analysis-Projects/blob/main/8-Week-SQL-Challenge/Case%20Study%20%231%20-%20Danny's%20Diner/Solution.md)
-6. [SQL Code](https://github.com/Haazem/Data-Analysis-Projects/tree/main/8-Week-SQL-Challenge/Case%20Study%20%231%20-%20Danny's%20Diner/SQL_Code)
-7. [Solution pfd](https://github.com/Haazem/Data-Analysis-Projects/tree/main/8-Week-SQL-Challenge/Case%20Study%20%231%20-%20Danny's%20Diner/Solution_pdf)
+5. [Solution](https://github.com/Haazem/8-Week-SQL-Challenge-/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/Solution.md)
+6. [SQL Code](https://github.com/Haazem/8-Week-SQL-Challenge-/tree/main/Case%20Study%20%231%20-%20Danny's%20Diner/SQL%20Code)
+7. [Solution pfd]
 
 ## Introduction  <a name="introduction"></a>
 
