@@ -1,4 +1,3 @@
-USE [Danny's Diner];
 
 CREATE SCHEMA dannys_diner;
 
