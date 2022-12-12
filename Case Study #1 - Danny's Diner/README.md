@@ -38,6 +38,24 @@ Danny has provided you with a sample of his overall customer data due to privacy
 
 ![Danny's Diner](https://user-images.githubusercontent.com/73290269/206284444-242e3dbe-c0dd-4dff-8aa4-7a56ae2c01ca.png)
   
+ ## Tables Description
+ 
+ 
+<details>
+<summary> click here </summary>
+<br>
+
+### Table 1: sales
+The sales table captures all customer_id level purchases with an corresponding order_date and product_id information for when and what menu items were ordered.
+
+### Table 2: menu
+The menu table maps the product_id to the actual product_name and price of each menu item.
+
+### Table 3: members
+The final members table captures the join_date when a customer_id joined the beta version of the Danny’s Diner loyalty program.
+
+</details>
+
   
 
 
