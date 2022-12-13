@@ -52,9 +52,9 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
 
 
 <details>
-<summary> click here </summary>
+<summary> A. Pizza Metrics </summary>
 <br>
-  
+ 
 * How many pizzas were ordered?
 
 * How many unique customer orders were made?
