@@ -9,10 +9,9 @@
 ## Table of contents
 
 1. [Introduction](#introduction)
-2. [Problem Statement](#problemstatement)
-3. [Entity Relationship Diagram](#entityrelationshipdiagram)
-4. [Case Study Questions](#casestudyquestions)
-5. [SQL Code](https://github.com/Haazem/8-Week-SQL-Challenge-/tree/main/Case%20Study%20%232:%20Pizza%20Runner/SQL%20Code)
+2. [Entity Relationship Diagram](#entityrelationshipdiagram)
+3. [Case Study Questions](#casestudyquestions)
+4. [SQL Code](https://github.com/Haazem/8-Week-SQL-Challenge-/tree/main/Case%20Study%20%232:%20Pizza%20Runner/SQL%20Code)
 
 
 ## Introduction  <a name="introduction"></a>
