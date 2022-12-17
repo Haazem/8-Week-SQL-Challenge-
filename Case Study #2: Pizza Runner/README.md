@@ -11,6 +11,9 @@
 1. [Introduction](#introduction)
 2. [Entity Relationship Diagram](#entityrelationshipdiagram)
 3. [Case Study Questions](#casestudyquestions)
+4. Solution
+    * [A. Pizza Metrics](https://github.com/Haazem/8-Week-SQL-Challenge-/blob/main/Case%20Study%20%232:%20Pizza%20Runner/A.%20Pizza%20Metrics.md)
+    * [B. Runner and Customer Experience](https://github.com/Haazem/8-Week-SQL-Challenge-/blob/main/Case%20Study%20%232:%20Pizza%20Runner/B.%20Runner%20and%20Customer%20Experience.md)
 4. [SQL Code](https://github.com/Haazem/8-Week-SQL-Challenge-/tree/main/Case%20Study%20%232:%20Pizza%20Runner/SQL%20Code)
 
 
