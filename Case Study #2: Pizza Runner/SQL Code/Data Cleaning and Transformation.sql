@@ -84,5 +84,29 @@ SELECT * FROM pizza_runner.runner_orders;
 
 ----------------------------------------------------------------------
 
+-- C. Ingredient Optimisation
+
+-- Create new table to store data after transformation
+
+CREATE TABLE pizza_runner.pizza_recipes_clean
+(
+pizza_id INT,
+topping_id INT
+)
+
+-- Insert the data in new table
+
+INSERT INTO pizza_runner.pizza_recipes_clean
+SELECT a.pizza_id, b.value as topping_id
+FROM pizza_runner.pizza_recipes a 
+CROSS APPLY STRING_SPLIT(a.toppings, N',') as b;
+
+-- New table after transforming it
+SELECT * FROM pizza_runner.pizza_recipes_clean;
+
+-- Delete old pizza_recipes table
+DROP TABLE pizza_runner.pizza_recipes;
+
+
 
 
