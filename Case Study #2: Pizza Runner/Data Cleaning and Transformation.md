@@ -99,6 +99,54 @@ ALTER COLUMN duration INT;
 
 ----
 
+#### Problem: Convert a comma separated list into rows.
+
+![DataClean_c1](https://user-images.githubusercontent.com/73290269/208849590-25ce57cf-d7ed-4265-8c39-f22e1dfb095b.png)
+
+###### Solution.
+
+```sql
+-- Create new table to store data after transformation
+
+CREATE TABLE pizza_runner.pizza_recipes_clean
+(
+pizza_id INT,
+topping_id INT
+)
+```
+
+```sql
+-- Insert the data in new table
+
+INSERT INTO pizza_runner.pizza_recipes_clean
+SELECT a.pizza_id, b.value as topping_id
+FROM pizza_runner.pizza_recipes a 
+CROSS APPLY STRING_SPLIT(a.toppings, N',') as b;
+```
+
+###### 
+```sql
+-- New table after transforming it
+
+SELECT * FROM pizza_runner.pizza_recipes_clean;
+```
+
+![DataClean_c2](https://user-images.githubusercontent.com/73290269/208850536-57cc772b-95de-41a6-8057-500a46b643ee.png)
+
+```sql
+-- Delete old pizza_recipes table
+
+DROP TABLE pizza_runner.pizza_recipes;
+```
+
+
+
+
+
+
+
+
+
 
 
 
