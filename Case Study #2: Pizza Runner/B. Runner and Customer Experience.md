@@ -133,14 +133,15 @@ SELECT r.runner_id,
 	   c.order_id,
 	   COUNT(c.order_id) as total_pizza_delivered,
 	   r.distance,
-	   ROUND((r.duration*0.1/60), 2) as duration_hr,
-	   CAST((distance*0.1/(duration*0.1/60))AS NUMERIC(10,2)) as avg_speed
+	   ROUND((r.duration * 0.1/60), 2) as duration_hr,
+	   CAST((distance * 1.0/(duration *1.0 /60))AS NUMERIC(10,2)) as avg_speed
 FROM pizza_runner.runner_orders r 
 JOIN pizza_runner.customer_orders c 
 ON c.order_id = r.order_id
 WHERE cancellation IS NULL
 GROUP BY r.runner_id, c.customer_id, c.order_id, r.distance, r.duration
 ORDER BY r.runner_id;
+
 
 ```
 
