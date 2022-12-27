@@ -12,7 +12,7 @@ SELECT r.pizza_id,
 FROM pizza_runner.pizza_recipes_clean r 
 JOIN pizza_runner.pizza_toppings t
 ON r.topping_id = t.topping_id
-GROUP BY r.pizza_id;
+GROUP BY r.pizza_id
 ```
 
 ![1](https://user-images.githubusercontent.com/73290269/208853731-48d7be5d-ef36-4c4a-95e8-fa8242b36d86.png)
