@@ -128,6 +128,38 @@ FROM order_item;
 
 ----
 
+### 5.Generate an alphabetically ordered comma separated ingredient list for each pizza order from the customer_orders table and add a 2x in front of any relevant ingredients
+
+```sql
+
+WITH toppings_pizza as 
+(
+	SELECT a.pizza_id, b.topping_name
+	FROM pizza_runner.pizza_recipes_clean a 
+	JOIN pizza_runner.pizza_toppings b 
+	ON a.topping_id = b.topping_id
+), toppings_group as 
+(
+	SELECT pizza_id ,
+		   CASE WHEN pizza_id = 1 
+		        THEN 'Meat Lovers: 2x' + STRING_AGG(topping_name , ',') 
+		   ELSE 'Vegetarian: 2x' + STRING_AGG(topping_name , ',')
+		   END as recipe
+	FROM toppings_pizza
+	GROUP BY pizza_id
+)
+
+SELECT c.*, g.recipe
+FROM pizza_runner.customer_orders c 
+JOIN toppings_group g
+ON g.pizza_id = c.pizza_id;
+
+```
+![C5](https://user-images.githubusercontent.com/73290269/209714529-2187108f-3a00-4514-8085-b642998f5585.png)
+
+----
+
+
 ### 6.What is the total quantity of each ingredient used in all delivered pizzas sorted by most frequent first?
 
 ```sql
