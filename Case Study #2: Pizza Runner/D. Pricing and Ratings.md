@@ -23,6 +23,10 @@ GROUP BY c.pizza_id
 
 ![1](https://user-images.githubusercontent.com/73290269/209706714-80af09dd-754b-4f6f-a322-2843ced0f74b.png)
 
+####  Pizza Runner made so far if there are no delivery fees = 138$
+
+
+
 ----
 
 ### 2. What if there was an additional $1 charge for any pizza extras?
@@ -69,6 +73,8 @@ ON o.pizzz_name = e.pizza_name
 ```
 
 ![2](https://user-images.githubusercontent.com/73290269/209706983-d1132914-40fe-442d-98b1-754baad74e50.png)
+
+#### The total amount of price is $150 including extras = 142
 
 ----
 
@@ -133,6 +139,7 @@ ORDER BY c.customer_id, c.order_id;
 ```
 ![4](https://user-images.githubusercontent.com/73290269/209707966-8919616f-a364-4823-9ed9-9a4db90dcd8f.png)
 
+
 ----
 
 ### 5. If a Meat Lovers pizza was $12 and Vegetarian $10 fixed prices with no cost for extras and each runner is paid $0.30 per kilometre traveled - how much money does Pizza Runner have left over after these deliveries?
@@ -148,7 +155,11 @@ FROM pizza_runner.runner_orders;
 ![5](https://user-images.githubusercontent.com/73290269/209708019-cabe7519-c7b8-446e-a0d5-d8b06184ac41.png)
 
 
+#### money does Pizza Runner has left over after these deliveries = 83.00 $
 
+* We set the total price pizza with no cost for extras and exclusions to $138
+* Substracts the total price pizza from the sum of duration multiplied by $0.30
+* Pizza Runner has $83 left
 
 
 
