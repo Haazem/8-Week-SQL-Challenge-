@@ -15,6 +15,7 @@
     * [A. Pizza Metrics](https://github.com/Haazem/8-Week-SQL-Challenge-/blob/main/Case%20Study%20%232:%20Pizza%20Runner/A.%20Pizza%20Metrics.md)
     * [B. Runner and Customer Experience](https://github.com/Haazem/8-Week-SQL-Challenge-/blob/main/Case%20Study%20%232:%20Pizza%20Runner/B.%20Runner%20and%20Customer%20Experience.md)
     * [C. Ingredient Optimisation](https://github.com/Haazem/8-Week-SQL-Challenge-/blob/main/Case%20Study%20%232:%20Pizza%20Runner/C.%20Ingredient%20Optimisation.md)
+    * [D. Pricing and Ratings](https://github.com/Haazem/8-Week-SQL-Challenge-/blob/main/Case%20Study%20%232:%20Pizza%20Runner/Data%20Cleaning%20and%20Transformation.md)
 4. [Data Cleaning and Transformation](https://github.com/Haazem/8-Week-SQL-Challenge-/blob/main/Case%20Study%20%232:%20Pizza%20Runner/Data%20Cleaning%20and%20Transformation.md)
 5. [Functions Used](https://github.com/Haazem/8-Week-SQL-Challenge-/blob/main/Case%20Study%20%232:%20Pizza%20Runner/Functions%20Used.md)
 6. [SQL Code](https://github.com/Haazem/8-Week-SQL-Challenge-/tree/main/Case%20Study%20%232:%20Pizza%20Runner/SQL%20Code)
@@ -134,6 +135,20 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
 
 </details>
 
+<details>
+<summary> D. Pricing and Ratings </summary>
+<br>
 
+* If a Meat Lovers pizza costs $12 and Vegetarian costs $10 and there were no charges for changes - how much money has Pizza Runner made so far if there are no delivery fees?
 
+* What if there was an additional $1 charge for any pizza extras?
+Add cheese is $1 extra
+
+* The Pizza Runner team now wants to add an additional ratings system that allows customers to rate their runner, how would you design an additional table for this new dataset - generate a schema for this new table and insert your own data for ratings for each successful customer order between 1 to 5.
+
+* Using your newly generated table - can you join all of the information together to form a table which has the following information for successful deliveries?
+
+* If a Meat Lovers pizza was $12 and Vegetarian $10 fixed prices with no cost for extras and each runner is paid $0.30 per kilometre traveled - how much money does Pizza Runner have left over after these deliveries?
+
+</details>
 
