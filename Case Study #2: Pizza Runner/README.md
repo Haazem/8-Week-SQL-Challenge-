@@ -1,6 +1,6 @@
 
 
-# Case Study #1 - Danny's Diner
+# Case Study #2 - Pizza Runner
 
 ![Case_2_2](https://user-images.githubusercontent.com/73290269/207393404-2ce42b94-6173-4bb8-b8c4-3a76420fc5af.png)
 
