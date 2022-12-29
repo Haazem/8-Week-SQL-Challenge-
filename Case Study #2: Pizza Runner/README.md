@@ -15,7 +15,7 @@
     * [A. Pizza Metrics](https://github.com/Haazem/8-Week-SQL-Challenge-/blob/main/Case%20Study%20%232:%20Pizza%20Runner/A.%20Pizza%20Metrics.md)
     * [B. Runner and Customer Experience](https://github.com/Haazem/8-Week-SQL-Challenge-/blob/main/Case%20Study%20%232:%20Pizza%20Runner/B.%20Runner%20and%20Customer%20Experience.md)
     * [C. Ingredient Optimisation](https://github.com/Haazem/8-Week-SQL-Challenge-/blob/main/Case%20Study%20%232:%20Pizza%20Runner/C.%20Ingredient%20Optimisation.md)
-    * [D. Pricing and Ratings](https://github.com/Haazem/8-Week-SQL-Challenge-/blob/main/Case%20Study%20%232:%20Pizza%20Runner/Data%20Cleaning%20and%20Transformation.md)
+    * [D. Pricing and Ratings](https://github.com/Haazem/8-Week-SQL-Challenge-/blob/main/Case%20Study%20%232:%20Pizza%20Runner/D.%20Pricing%20and%20Ratings.md)
 4. [Data Cleaning and Transformation](https://github.com/Haazem/8-Week-SQL-Challenge-/blob/main/Case%20Study%20%232:%20Pizza%20Runner/Data%20Cleaning%20and%20Transformation.md)
 5. [Functions Used](https://github.com/Haazem/8-Week-SQL-Challenge-/blob/main/Case%20Study%20%232:%20Pizza%20Runner/Functions%20Used.md)
 6. [SQL Code](https://github.com/Haazem/8-Week-SQL-Challenge-/tree/main/Case%20Study%20%232:%20Pizza%20Runner/SQL%20Code)
