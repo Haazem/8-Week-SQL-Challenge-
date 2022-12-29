@@ -45,14 +45,40 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
 <details>
 <summary> click here </summary>
 <br>
+   
+#### Table 1: runners
+   
+__The runners__ table shows the registration_date for each new runner
+
+#### Table 2: customer_orders
+Customer pizza orders are captured in the __customer_orders__ table with 1 row for each individual pizza that is part of the order.
+
+The __pizza_id__ relates to the type of pizza which was ordered whilst the __exclusions__ are the __ingredient_id__ values which should be removed from the pizza and the __extras__ are the __ingredient_id__ values which need to be added to the pizza.
+
+Note that customers can order multiple pizzas in a single order with varying __exclusions__ and __extras__ values even if the pizza is the same type!
+
+The __exclusions__ and __extras__ columns will need to be cleaned up before using them in your queries.
+
+#### Table 3: runner_orders
+After each orders are received through the system - they are assigned to a runner - however not all orders are fully completed and can be cancelled by the restaurant or the customer.
+   
+__The pickup_time__ is the timestamp at which the runner arrives at the Pizza Runner headquarters to pick up the freshly cooked pizzas. __The distance__ and __duration__ fields are related to how far and long the runner had to travel to deliver the order to the respective customer.
+
+There are some known data issues with this table so be careful when using this in your queries - make sure to check the data types for each column in the schema SQL!
+   
+#### Table 4: pizza_names
+At the moment - Pizza Runner only has 2 pizzas available the Meat Lovers or Vegetarian!
+
+#### Table 5: pizza_recipes
+Each __pizza_id__ has a standard set of __toppings__ which are used as part of the pizza recipe.
+
+#### Table 6: pizza_toppings
+This table contains all of __the topping_name__ values with their corresponding __topping_id__ value
 
 
 </details>
 
   
-
-
-
 
 
 ## Case Study Questions <a name="casestudyquestions"></a>
